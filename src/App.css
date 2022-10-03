@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    min-height: 100vh;
+    padding: 0 5vh;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+
+.navbarComponent {
+    padding: 10px;
+    position: sticky;
+    background-color: rgb(47, 47, 47);
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlogoSpan,
+.searchSpan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 5vh;
+}
+
+/*  -------------------------------styles Home Page------------------------------- */
+
+.hoemPage {
+    width: 100%;
+    display: flex;
+}
+
+.sidebar {
+    height: 90vh;
+    width: 10%;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    overflow-y: scroll;
+}
+
+.sideBarItem {
+    margin: 10px;
+}
+
+.homeContent {
+    width: 90%;
+    padding-left: 1vw;
+}
+
+.videoContainer {
+    height: 90vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.videoCard {
+    height: 300px;
+    width: 300px;
+    padding: 0 5px 5px 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* ---------------------------------------player css--------------------------------------- */
+
+.playerPage {
+    min-height: 150vh;
+    max-height: 150vh;
+}
+
+.suggesionVideoContainer {
+    max-height: 150vh;
+    overflow-y: scroll;
+}
+
+.picons {
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+/* ---------------------------------------channel css--------------------------------------- */
+
+.channelPage {
+    min-height: 150vh;
+    max-height: 200vh;
+    padding: 10px 5vh;
+}
+
+.outer {
+    height: 45vh;
+}
+
+.channelBackground {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(0.25turn, rgb(25, 96, 182), rgb(234, 0, 255));
+}
+
+.channelLogo {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 120px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 2px;
+}
+
+.channelPic {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
